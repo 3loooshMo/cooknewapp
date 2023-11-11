@@ -1,0 +1,137 @@
+@media print {
+    .order-detales {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        direction: rtl;
+        align-items: center;
+        font-size: 2px;
+    }
+
+    .orders-detales {
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divider {
+        border: .1px solid #000;
+    }
+
+    .order-header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .order-header p {
+        width: 30%;
+        font-size: 5px;
+
+    }
+
+    .order-body {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    .order-body p {
+        width: 30%;
+        font-size: 5px;
+
+    }
+    .sum-amount {
+        margin-top: .2rem;
+        font-size: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-size: 4px;
+    }
+    .about p {
+        margin-right: .5rem;
+         text-align: center;
+    }
+    @page {
+        size: 80mm 100mm;
+    }
+}
+.order-detales {
+    margin: .5rem;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.orders-detales {
+    background-color: white;
+    color: black;
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+}
+
+.divider {
+    border: .2px solid #000;
+}
+
+.order-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: .5rem;
+}
+
+.order-header p {
+    width: 20%;
+    font-size: 10px;
+    margin: .5rem;
+
+}
+
+.order-body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: .5rem;
+
+}
+.sum-amount {
+    margin-top: 1rem;
+    font-size: 8px;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  font-size: 6px;
+}
+.about p {
+    margin-right: 1rem;
+}
+.order-body p {
+    width: 20%;
+    font-size: 10px;
+    margin: .5rem;
+
+}

@@ -1,0 +1,190 @@
+.items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+
+.menu-items {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 60%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.items-menu {
+    background-color: rgb(255, 255, 255);
+    border: .8px solid rgb(0, 0, 0);
+    padding: .2rem .8rem;
+    border-radius: 8px;
+    margin: .5rem;
+    display: flex;
+    width: 30%;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.items-menu p {
+    margin-top: .4rem;
+    font-size: 14px;
+}
+
+.items-menu img {
+    width: 80%;
+    height: 110px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.btn-add {
+
+    margin: 1rem auto;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    padding: .5rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: red;
+}
+
+.order-itemss {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    overflow: scroll;
+    width: 50%;
+    margin-right: .4rem;
+}
+
+.btn-print,
+.btn-wite,
+.btn-delete {
+    background-color: green;
+    width: 100%;
+    margin-top: 1rem;
+    padding: .8rem;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-print:hover{
+    background-color: rgb(0, 255, 64);
+}
+.btn-items {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    padding: .8rem;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.btn-delete {
+    background-color: red;
+    margin-right: 1rem;
+}
+
+.btn-wite {
+    background-color: yellow;
+    color: black;
+    margin-left: 1rem;
+}
+
+.btn-both {
+    display: flex;
+    width: 100%;
+
+}
+
+
+.orders-tabes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.order-counts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.order-count p{
+font-size: larger;
+ text-align: center;
+}
+.order-counts div {
+    cursor: pointer;
+    color: rgb(15, 15, 15);
+    width: 30%;
+    padding: .4rem .6rem;
+    border-radius: 8px;
+
+}
+
+.form-container .form .form-input option {
+    color: gray;
+    font-size: 18px;
+}
+
+.form-input select:focus {
+    outline: none;
+    border: 1px solid orange;
+}
+.wite-items button{
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    margin-top: .1rem;
+    margin-bottom: .2rem;
+    padding: .5rem .8rem;
+    border-radius: 8px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+/* .form-input  {
+    cursor: pointer;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: rgb(236, 156, 6);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  } */
+
+.form-input .select-category {
+    background-color: rgb(246, 246, 246);
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
